@@ -22,7 +22,11 @@ namespace MaximaTech.Core.Business.Product.Repository
             using (var conn = new NpgsqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
-                using (var cmd = new NpgsqlCommand("SELECT * FROM \"Products\" WHERE \"Deleted\" = FALSE", conn))
+                using (var cmd = new NpgsqlCommand(
+                    "SELECT p.\"Id\", p.\"Code\", p.\"Description\", p.\"DepartmentId\", p.\"Price\", p.\"Status\", d.\"Description\" as DepartmentName " +
+                    "FROM \"Products\" p " +
+                    "JOIN \"Departments\" d ON p.\"DepartmentId\" = d.\"Id\" " +
+                    "WHERE p.\"Deleted\" = FALSE", conn))
                 using (var reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
@@ -33,6 +37,7 @@ namespace MaximaTech.Core.Business.Product.Repository
                             Code = reader.GetString(reader.GetOrdinal("Code")),
                             Description = reader.GetString(reader.GetOrdinal("Description")),
                             DepartmentId = reader.GetGuid(reader.GetOrdinal("DepartmentId")),
+                            DepartmentName = reader.GetString(reader.GetOrdinal("DepartmentName")),
                             Price = reader.GetDecimal(reader.GetOrdinal("Price")),
                             Status = reader.GetBoolean(reader.GetOrdinal("Status"))
                         });
@@ -50,7 +55,11 @@ namespace MaximaTech.Core.Business.Product.Repository
             using (var conn = new NpgsqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
-                using (var cmd = new NpgsqlCommand("SELECT * FROM \"Products\" WHERE \"Id\" = @Id AND \"Deleted\" = FALSE", conn))
+                using (var cmd = new NpgsqlCommand(
+                    "SELECT p.\"Id\", p.\"Code\", p.\"Description\", p.\"DepartmentId\", p.\"Price\", p.\"Status\", d.\"Description\" as DepartmentName " +
+                    "FROM \"Products\" p " +
+                    "JOIN \"Departments\" d ON p.\"DepartmentId\" = d.\"Id\" " +
+                    "WHERE p.\"Id\" = @Id AND p.\"Deleted\" = FALSE", conn))
                 {
                     cmd.Parameters.AddWithValue("Id", id);
 
@@ -64,6 +73,7 @@ namespace MaximaTech.Core.Business.Product.Repository
                                 Code = reader.GetString(reader.GetOrdinal("Code")),
                                 Description = reader.GetString(reader.GetOrdinal("Description")),
                                 DepartmentId = reader.GetGuid(reader.GetOrdinal("DepartmentId")),
+                                DepartmentName = reader.GetString(reader.GetOrdinal("DepartmentName")),
                                 Price = reader.GetDecimal(reader.GetOrdinal("Price")),
                                 Status = reader.GetBoolean(reader.GetOrdinal("Status"))
                             };

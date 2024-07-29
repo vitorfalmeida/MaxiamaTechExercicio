@@ -19,7 +19,6 @@ public class JwtMiddleware
 
     public async Task Invoke(HttpContext context)
     {
-        Console.WriteLine("JwtMiddleware invoked");
         var token = context.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
         if (!string.IsNullOrEmpty(token))
         {
