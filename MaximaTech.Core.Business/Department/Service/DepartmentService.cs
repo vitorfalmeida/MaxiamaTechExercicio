@@ -1,18 +1,29 @@
-﻿using MaximaTech.Core.Business.Department.Model;
+﻿using AutoMapper;
+using MaximaTech.Core.Business.Department.Model;
 
 namespace MaximaTech.Core.Business.Department.Service
 {
-    public class DepartmentService: IDepartmentService
+    public class DepartmentService : IDepartmentService
     {
-        public IEnumerable<DepartmentModel> GetAll()
+        private readonly IDepartmentRepository _departmentRepository;
+        private readonly IMapper _mapper;
+
+        public DepartmentService(IDepartmentRepository departmentRepository, IMapper mapper)
         {
-            return new List<DepartmentModel>
-            {
-                new DepartmentModel { Code = "010", Description = "BEBIDAS" },
-                new DepartmentModel { Code = "020", Description = "CONGELADOS" },
-                new DepartmentModel { Code = "030", Description = "LATICINIOS" },
-                new DepartmentModel { Code = "040", Description = "VEGETAIS" }
-            };
+            _departmentRepository = departmentRepository;
+            _mapper = mapper;
+        }
+
+        public async Task<IEnumerable<DepartmentModel>> GetAllAsync()
+        {
+            var departments = await _departmentRepository.GetAllAsync();
+            return _mapper.Map<IEnumerable<DepartmentModel>>(departments);
+        }
+
+        public async Task<DepartmentModel> GetByIdAsync(Guid id)
+        {
+            var department = await _departmentRepository.GetByIdAsync(id);
+            return _mapper.Map<DepartmentModel>(department);
         }
     }
 }

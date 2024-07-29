@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00928E9-C177-4B1B-990F-700E3D1779F0}|MaximaTech.Clients.API.csproj|solutionrelative:controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9D1B4A-0682-4FB8-8033-6F0EDBA49E11}|..\\MaximaTech.Clients.Common\\MaximaTech.Clients.Common.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.common\\filtersandmidwares\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9D1B4A-0682-4FB8-8033-6F0EDBA49E11}|..\\MaximaTech.Clients.Common\\MaximaTech.Clients.Common.csproj|c:\\users\\usuario\\source\\repos\\maxiamatechexercicio\\maximatech.clients.common\\filtersandmidwares\\swaggersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T01:59:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:28:29.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:22:30.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:21:45.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.Common\\FiltersAndMidwares\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\MaximaTech.Clients.Common\\FiltersAndMidwares\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.Common\\FiltersAndMidwares\\JwtMiddleware.cs",
+              "RelativeToolTip": "..\\MaximaTech.Clients.Common\\FiltersAndMidwares\\JwtMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:15:14.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.API\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:13:37.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SwaggerSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.Common\\FiltersAndMidwares\\SwaggerSetup.cs",
+              "RelativeDocumentMoniker": "..\\MaximaTech.Clients.Common\\FiltersAndMidwares\\SwaggerSetup.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MaxiamaTechExercicio\\MaximaTech.Clients.Common\\FiltersAndMidwares\\SwaggerSetup.cs",
+              "RelativeToolTip": "..\\MaximaTech.Clients.Common\\FiltersAndMidwares\\SwaggerSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:11:24.391Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

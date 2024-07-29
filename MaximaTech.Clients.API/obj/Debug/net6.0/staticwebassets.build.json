@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3CPymcR3T9TT3C0PqnaEz5uBaVd4h+zXBx2QNvMQ+Ec=",
+  "Source": "MaximaTech.Clients.API",
+  "BasePath": "_content/MaximaTech.Clients.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\bin\Debug\net6.0\MaximaTech.Infra.RelationalData.deps.json
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\bin\Debug\net6.0\MaximaTech.Infra.RelationalData.runtimeconfig.json
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\bin\Debug\net6.0\MaximaTech.Infra.RelationalData.dll
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\bin\Debug\net6.0\MaximaTech.Infra.RelationalData.pdb
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.dll
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\refint\MaximaTech.Infra.RelationalData.dll
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.pdb
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\MaximaTech.Infra.RelationalData.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Infra.RelationalData\obj\Debug\net6.0\ref\MaximaTech.Infra.RelationalData.dll

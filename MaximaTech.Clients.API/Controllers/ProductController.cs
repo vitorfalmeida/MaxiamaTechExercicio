@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MaximaTech.Clients.API.Controllers
 {
+
     public class ProductController: BaseApiController
     {
         private readonly IProductService _produtctService;
@@ -16,7 +17,7 @@ namespace MaximaTech.Clients.API.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<IActionResult> GetAllProduct()
         {
             var products = await _produtctService.GetAllAsync();
@@ -24,7 +25,7 @@ namespace MaximaTech.Clients.API.Controllers
             return Ok(productDtos);
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetProduct(Guid id)
         {
             var product = await _produtctService.GetByIdAsync(id);

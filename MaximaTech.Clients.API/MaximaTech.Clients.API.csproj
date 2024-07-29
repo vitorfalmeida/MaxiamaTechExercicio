@@ -23,4 +23,14 @@
     <ProjectReference Include="..\MaximaTech.Core.Business\MaximaTech.Core.Business.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Update="appsettings.Development.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+
 </Project>

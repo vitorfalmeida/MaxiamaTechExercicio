@@ -4,6 +4,7 @@ namespace MaximaTech.Core.Business.Department
 {
     public interface IDepartmentService
     {
-        IEnumerable<DepartmentModel> GetAll();
-    } 
+        Task<IEnumerable<DepartmentModel>> GetAllAsync();
+        Task<DepartmentModel> GetByIdAsync(Guid id);
+    }
 }

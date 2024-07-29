@@ -15,9 +15,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A5D4B93C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximaTech.Clients.Common", "..\MaximaTech.Clients.Common\MaximaTech.Clients.Common.csproj", "{9F9D1B4A-0682-4FB8-8033-6F0EDBA49E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximaTech.Core.Business", "..\MaximaTech.Core.Business\MaximaTech.Core.Business.csproj", "{F5106D9C-3973-4BC2-9020-D0F510745D1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximaTech.Core.Business", "..\MaximaTech.Core.Business\MaximaTech.Core.Business.csproj", "{F5106D9C-3973-4BC2-9020-D0F510745D1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximaTech.Infra.RelationalData", "..\MaximaTech.Infra.RelationalData\MaximaTech.Infra.RelationalData.csproj", "{45570D9A-674C-4ED5-91DB-F7CFF912B361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximaTech.Infra.RelationalData", "..\MaximaTech.Infra.RelationalData\MaximaTech.Infra.RelationalData.csproj", "{45570D9A-674C-4ED5-91DB-F7CFF912B361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{CBED6BE4-78DB-4EC5-8822-CBB25D102A96}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

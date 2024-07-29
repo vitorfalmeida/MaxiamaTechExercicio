@@ -1,12 +1,34 @@
-﻿namespace MaximaTech.Infra.RelationalData.Entity;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-public class ProductEntity
+namespace MaximaTech.Infra.RelationalData.Entity
 {
-    public Guid Id { get; set; }
-    public string Code { get; set; }
-    public string Description { get; set; }
-    public string Department { get; set; }
-    public decimal Price { get; set; }
-    public bool Status { get; set; }
-    public bool Deleted { get; set; }
+    public class ProductEntity
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public Guid Id { get; set; }
+
+        [Required]
+        public string Code { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
+        [Required]
+        public decimal Price { get; set; }
+
+        [Required]
+        public bool Status { get; set; }
+
+        [Required]
+        public bool Deleted { get; set; }
+       
+        [Required]
+        public Guid DepartmentId { get; set; }
+
+        [ForeignKey("DepartmentId")]
+        public DepartmentEntity Department { get; set; }
+    }
 }
