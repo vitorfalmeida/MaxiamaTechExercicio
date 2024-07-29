@@ -1,5 +1,4 @@
-﻿using MaximaTech.Core.Business.Token;
-using MaximaTech.Core.Business.Token.Model;
+﻿using MaximaTech.Core.Business.Token.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ITokenService = MaximaTech.Core.Business.Token.Service.ITokenService;

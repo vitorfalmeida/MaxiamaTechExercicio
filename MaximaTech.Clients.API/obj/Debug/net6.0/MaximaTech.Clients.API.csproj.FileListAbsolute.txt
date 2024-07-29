@@ -59,4 +59,4 @@ C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\obj\De
 C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\obj\Debug\net6.0\MaximaTech.Clients.API.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\obj\Debug\net6.0\ref\MaximaTech.Clients.API.dll
 C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
-C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\obj\Debug\net6.0\MaximaTe.CFDBA4FC.Up2Date
+C:\Users\Usuario\source\repos\MaxiamaTechExercicio\MaximaTech.Clients.API\obj\Debug\net6.0\MaximaTech.Clients.API.csproj.CopyComplete

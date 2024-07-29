@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
-using MaximaTech.Core.Business.Department.Service;
+using MaximaTech.Core.Business.Department;
 using MaximaTech.Core.Business.Department.Model;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using MaximaTech.Core.Business.Department;
 
 namespace MaximaTech.Clients.API.Controllers
 {

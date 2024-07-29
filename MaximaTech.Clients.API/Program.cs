@@ -10,13 +10,14 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
-Console.WriteLine($"JWT Key: {builder.Configuration["Jwt:Key"]}");
-Console.WriteLine($"JWT Issuer: {builder.Configuration["Jwt:Issuer"]}");
-Console.WriteLine($"JWT Audience: {builder.Configuration["Jwt:Audience"]}");
-
 builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.ConfigureDI(builder.Configuration);
 builder.Services.AddSwaggerDocumentation();
+
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.Configure(builder.Configuration.GetSection("Kestrel"));
+});
 
 builder.Services.AddAuthentication();
 
