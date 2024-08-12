@@ -1,0 +1,152 @@
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Oo]ut/
+[Tt]mp/
+[Tt]emp/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Microsoft database files
+*.mdf
+*.ldf
+
+# Jet database files
+*.mdb
+*.accdb
+
+# IIS Logs
+IISExpress/
+
+# Web publish folder
+publish/
+wwwroot/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows-specific files
+*.appx
+*.appxbundle
+*.appxupload
+
+# StyleCop
+StyleCopReport.xml
+
+# Web site specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build results
+*.build_log.txt
+*.build_log.xml
+*.ds_store
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunchinitialization
+
+# NuGet
+*.nupkg
+*.nuget.props
+*.nuget.targets
+.nuget/
+**/packages/
+*.sln.ide
+*.code-workspace
+*.csproj.user
+*.vbproj.user
+*.sln.docstates
+*.vs
+
+# dotCover
+*.dotCover
+
+# dotTrace
+*.dotTrace
+
+# dotMemory
+*.dotMemory
+
+# Rider
+.idea/
+.idea_modules/
+
+# macOS
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
